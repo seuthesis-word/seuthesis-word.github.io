@@ -23,7 +23,7 @@ Update On 2024/12/30: 修改了目录节的页眉和页码格式，以及给封�
 这是一个基于Word样式和自动编号的东南大学硕士学位论文模板，
 旨在帮助更高效地编写学位论文。模板支持多种自动化格式更新功能，只需要输入内容，并应用相应的格式，文档会自动呈现出符合要求的外观。
 
-项目的文档网站是[https://tompan-1901.github.io/SEUThesis-Word](https://tompan-1901.github.io/SEUThesis-Word)。
+项目的文档网站是[https://seutheis-word.github.io](https://seutheis-word.github.io)。
 
 文档中的设置参考了视频[word教程 | 你的下一个LaTex何必是LaTex](https://www.bilibili.com/video/BV1se411U7Dy)，也向视频作者表达感谢。
 

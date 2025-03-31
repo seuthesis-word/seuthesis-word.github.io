@@ -65,7 +65,7 @@ export default defineConfig({
   title: "SEUThesis-Word: 东南大学硕士学位论文Word模板, 东大研究生论文模板, 研究生论文格式",
   description: "基于Word样式和自动编号的东南大学硕士学位论文模板， 根据东南大学研究生院提供的规范创建，旨在帮助研究生更高效地编写学位论文。模板支持多种自动化格式更新功能，只需要输入内容，并应用相应的格式，文档会自动呈现出符合要求的外观。",
   lang: 'zh-CN',
-  base: '/SEUThesis-Word/',
+  base: '/',
   themeConfig: {
 
     siteTitle: "SEUThesis-Word",
@@ -75,7 +75,7 @@ export default defineConfig({
       { text: '文档', link: '/' },
       { text: '下载', link: '/download' },
       { text: '🌟SEU视觉识别系统🌟', link: '/seu-vis' },
-      { text: 'GitHub项目仓库', link: 'https://github.com/TomPan-1901/SEUThesis-Word' },
+      { text: 'GitHub项目仓库', link: 'https://github.com/seuthesis-word/seuthesis-word.github.io' },
       { text: 'SEU GitLab项目仓库', link: 'https://gitlab.seu.edu.cn/220232291/seuthesis-word' },
     ],
 
@@ -110,15 +110,12 @@ export default defineConfig({
   head: [
     ['meta', { name: 'google-site-verification', content: 'fpLO2Ckk6Kfvk6E8rgD_yGINH7-ums8VFW6Vqmoq4gw' }],
     ['script', { defer: '', src: 'https://static.cloudflareinsights.com/beacon.min.js', 'data-cf-beacon': '{"token": "bf24c213a96f4789acdec9e3af0a6bff"}'},],
-    ['script', { type: 'text/javascript'}, `window.onload = () => window.clarity('consent')`],
-    ['script', { async: '', src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6864290273818399', 'crossorigin': 'anonymous'},],
-    ['script', { type: 'text/javascript'}, `(adsbygoogle = window.adsbygoogle || []).push({});`],
   ],
   rewrites: {
     'README.md': 'index.md',
   },
   sitemap: {
-    hostname: 'https://tompan-1901.github.io/SEUThesis-Word/',
+    hostname: 'https://seutheis-word.github.io/',
   },
   lastUpdated: true
 })
