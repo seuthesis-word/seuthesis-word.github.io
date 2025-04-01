@@ -115,7 +115,7 @@ export default defineConfig({
     'README.md': 'index.md',
   },
   sitemap: {
-    hostname: 'https://seutheis-word.github.io/',
+    hostname: 'https://seuthesis-word.github.io/',
   },
   lastUpdated: true
 })
