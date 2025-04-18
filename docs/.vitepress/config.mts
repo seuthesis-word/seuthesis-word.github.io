@@ -109,6 +109,7 @@ export default defineConfig({
   },
   head: [
     ['meta', { name: 'google-site-verification', content: 'fpLO2Ckk6Kfvk6E8rgD_yGINH7-ums8VFW6Vqmoq4gw' }],
+    ['meta', { name: 'google-adsense-account', content: 'ca-pub-6864290273818399' }],
     ['script', { defer: '', src: 'https://static.cloudflareinsights.com/beacon.min.js', 'data-cf-beacon': '{"token": "bf24c213a96f4789acdec9e3af0a6bff"}'},],
   ],
   rewrites: {
