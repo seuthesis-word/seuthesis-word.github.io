@@ -265,18 +265,20 @@ description: 东南大学视觉识别系统矢量图素材，提供了由东南�
   </div>
 </div>
 
+
 <div :class="$style.StandardMotto">
-  <div :class="[$style.StandardMottoImg]">
-    <div :class="$style.HoverHidden">
-      <img src="./figures/seu-vis/color-specification/标准色卡.svg"  />
-      <div :class="$style.Mask">
-        悬浮鼠标查看完整效果（可以放到ppt里方便取色）
-      </div>
-    </div>
-    <div>标准色卡</div>
-    <button @click="handleDownload">下载svg</button>
-  </div>
+	<div :class="[$style.StandardMottoImg]">
+		<div :class="$style.HoverHidden">
+			<img :src="colorSpec" />
+			<div :class="$style.Mask">
+				悬浮鼠标查看完整效果（可以放到ppt里方便取色）
+			</div>
+		</div>
+		<div>标准色卡</div>
+		<button @click="handleDownload">下载svg</button>
+	</div>
 </div>
+
 
 ## 校训字体
 
@@ -373,11 +375,20 @@ description: 东南大学视觉识别系统矢量图素材，提供了由东南�
     return `#${rgb.match(/\d+/g).map(v => parseInt(v).toString(16)).join('')}`
   }
 
+  import colorSpec from './figures/seu-vis/color-specification/标准色卡.svg'
+
   function handleDownload(e) {
     const parentNode = e.target.parentNode
+    const img = parentNode.querySelector('img')
+    const text = parentNode.querySelector('div').textContent.trim()
     const a = document.createElement('a')
-    a.href = parentNode.childNodes[0].src
-    a.download = parentNode.childNodes[1].textContent + '.svg'
+    if (img && img.src === colorSpec) {
+      a.href = colorSpec
+      a.download = '标准色卡.svg'
+    } else {
+      a.href = img ? img.src : ''
+      a.download = text + '.svg'
+    }
     a.click()
   }
 </script>
