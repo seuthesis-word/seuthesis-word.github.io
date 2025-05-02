@@ -270,10 +270,10 @@ description: 东南大学视觉识别系统矢量图素材，提供了由东南�
     <div :class="$style.HoverHidden">
       <img src="./figures/seu-vis/color-specification/标准色卡.svg"  />
       <div :class="$style.Mask">
-        悬浮鼠标查看完整效果
+        悬浮鼠标查看完整效果（可以放到ppt里方便取色）
       </div>
     </div>
-    <div>标准色卡（可以放到ppt里方便取色）</div>
+    <div>标准色卡</div>
     <button @click="handleDownload">下载svg</button>
   </div>
 </div>
@@ -379,7 +379,6 @@ description: 东南大学视觉识别系统矢量图素材，提供了由东南�
     a.href = parentNode.childNodes[0].src
     a.download = parentNode.childNodes[1].textContent + '.svg'
     a.click()
-    window.clarity('event', 'download')
   }
 </script>
 
