@@ -1,5 +1,4 @@
-import DefaultTheme from "vitepress/theme-without-fonts";
-import './google-fonts.css'
+import DefaultTheme from "vitepress/theme";
 import CustomLayout from './CustomLayout.vue'
 
 export default {
