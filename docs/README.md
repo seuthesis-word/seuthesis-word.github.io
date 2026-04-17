@@ -119,3 +119,7 @@ Update On 2024/12/30: 修改了目录节的页眉和页码格式，以及给封�
 - 本文中的gif动图也同时插入在模板中，看不清可以直接看模板里的说明。动图中部分字体字号和《东南大学研究生学位论文格式规定》不一致，但是模板文档已经按照规定进行修改，请以文档内格式为准。
 
 - 本模板使用Microsoft Office 2021 LTSC版本制作，为了确保最好的显示效果，强烈建议全程使用Office编辑。东南大学师生可以在内网下载正版Office软件，登录[正版软件管理与服务平台](https://software.seu.edu.cn/)后按提示操作。
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=seuthesis-word/seuthesis-word.github.io&type=date&legend=top-left)](https://www.star-history.com/#seuthesis-word/seuthesis-word.github.io&type=date&legend=top-left)
