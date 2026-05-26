@@ -1,0 +1,16 @@
+name: Release Template
+
+on:
+  release:
+    types: [created]
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Upload Template.docx to release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: Template.docx
