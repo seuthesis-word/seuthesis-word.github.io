@@ -8,10 +8,21 @@ on:
 jobs:
   upload:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
 
-      - name: Upload Template.docx to release
+      - name: Upload to existing release
+        if: github.event_name == 'release'
         uses: softprops/action-gh-release@v2
         with:
           files: Template.docx
+
+      - name: Create release and upload
+        if: github.event_name == 'workflow_dispatch'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          tag="v$(date +%Y%m%d)"
+          gh release create "$tag" Template.docx --title "$tag" --generate-notes
