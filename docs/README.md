@@ -6,10 +6,6 @@ description: 基于Word样式和自动编号的东南大学研究生学位论文
 
 # SEUThesis-Word: 东南大学硕士学位论文Word模板 Southeast University Master's Thesis Word Template
 
-内网用户也可以直接在SEU GitLab访问[此项目](https://gitlab.seu.edu.cn/220232291/seuthesis-word)。
-
-*关于SEU Gitlab的访问：非内网DNS会错误的把Gitlab域名解析到已经下线的反向代理，从而会看到“升级维护中”页面。如果您正在使用校内VPN或者其他代理软件并且遇到此情况，可以修改hosts文件，将*`gitlab.seu.edu.cn`*解析到*`10.64.60.31`。
-
 **想直接下载模板，请点击[这里](./download.md)。**
 
 **需要东南大学元素的PowerPoint素材，也可以看看[这里](./seu-vis.md)。**
