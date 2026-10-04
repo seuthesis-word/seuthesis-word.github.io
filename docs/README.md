@@ -58,17 +58,17 @@ description: 基于Word样式和自动编号的东南大学研究生学位论文
 
 标题样式和正文样式使用非常简单。输入文字后，在Word上方的样式框中选择相应的样式即可应用。
 
-![title-style](https://seuthesis-word.oss-cn-hangzhou.aliyuncs.com/figures/title-style.gif)
+![title-style](figures/title-style.gif)
 
 ### 使用图片、表格和公式样式
 
 - **图片**：插入图片后按回车，下一段会自动设置为“图片标签”，编号自动生成。
 
-![figure-style](https://seuthesis-word.oss-cn-hangzhou.aliyuncs.com/figures/figure-style.gif)
+![figure-style](figures/figure-style.gif)
 
 - **表格**：插入表格前先选择“表格标签”样式，输入标签后按回车，再插入表格。
 
-![table-style](https://seuthesis-word.oss-cn-hangzhou.aliyuncs.com/figures/table-style.gif)
+![table-style](figures/table-style.gif)
 
 - **公式**：微软Office只支持UnicodeMath公式，虽然Word也支持将$\LaTeX$公式转换为UnicodeMath公式，但是支持有限，部分语法不能正常转换，建议直接使用UnicodeMath语法输入公式，如何输入UnicodeMath请看[这里](https://blog.csdn.net/weixin_44224652/article/details/110673138)。
 
@@ -79,9 +79,9 @@ description: 基于Word样式和自动编号的东南大学研究生学位论文
     3. 按Ctrl+F9插入域代码。在括号中输入`ListNum equation \l 6`**（注意空格，以及\后面是小写字母L）**或者使用菜单中的插入域操作，具体见图。关于ListNum的具体原理，详见[这里](https://support.microsoft.com/en-us/office/field-codes-listnum-field-557541b1-abb2-4959-a9f2-401639c8ff82)。
     4. 按回车，编号会自动右对齐，并去掉编号的斜体样式。
 
-![equation-style](https://seuthesis-word.oss-cn-hangzhou.aliyuncs.com/figures/equation-style.gif)
+![equation-style](figures/equation-style.gif)
 
-![equation-style-menu](https://seuthesis-word.oss-cn-hangzhou.aliyuncs.com/figures/equation-style-menu.gif)
+![equation-style-menu](figures/equation-style-menu.gif)
 
 ### 交叉引用
 
@@ -89,7 +89,7 @@ description: 基于Word样式和自动编号的东南大学研究生学位论文
 
 因为图片、表格和公式编号本质上都是段落编号，直接使用交叉引用菜单插入即可。
 
-![cross-ref](https://seuthesis-word.oss-cn-hangzhou.aliyuncs.com/figures/cross-ref.gif)
+![cross-ref](figures/cross-ref.gif)
 
 
 - **参考文献**
@@ -105,13 +105,13 @@ description: 基于Word样式和自动编号的东南大学研究生学位论文
 
 一般情况下章节目录只需要展示前三级标题，即大纲级别1、2、3。自定义目录中的设置刚好满足要求。
 
-![chapter-toc](https://seuthesis-word.oss-cn-hangzhou.aliyuncs.com/figures/chapter-toc.gif)
+![chapter-toc](figures/chapter-toc.gif)
 
 - **图表目录**
 
 在自定义目录选项中，设置图片标签/表格标签为一级目录，并去掉其他的样式，即可显示图片和表格目录。
 
-![figure-table-toc](https://seuthesis-word.oss-cn-hangzhou.aliyuncs.com/figures/figure-table-toc.gif)
+![figure-table-toc](figures/figure-table-toc.gif)
 
 
 ## 其他注意事项
